@@ -77,7 +77,7 @@ export default function HomePage() {
             </div>
 
             {/* Right: Store Image in Circular Frame */}
-            <div className="flex justify-center lg:justify-end">
+            <div className="flex justify-center lg:justify-end pb-16 md:pb-0">
               <div className="relative group">
                 {/* Circular Image with Professional Frame */}
                 <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl ring-4 ring-white/20 ring-offset-8 ring-offset-black/50">
@@ -98,9 +98,9 @@ export default function HomePage() {
                 <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-secondary/20 rounded-full blur-3xl animate-pulse delay-1000" />
                 
                 {/* Floating Badge */}
-                <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md rounded-full px-6 py-3 shadow-xl border border-white/50">
-                  <div className="flex items-center gap-2 text-sm font-semibold text-foreground">
-                    <MapPin className="h-4 w-4 text-primary" />
+                <div className="absolute bottom-0 md:-bottom-6 left-1/2 -translate-x-1/2 bg-white/95 backdrop-blur-md rounded-full px-4 md:px-6 py-2 md:py-3 shadow-xl border border-white/50 whitespace-nowrap">
+                  <div className="flex items-center gap-2 text-xs md:text-sm font-semibold text-foreground">
+                    <MapPin className="h-3 w-3 md:h-4 md:w-4 text-primary" />
                     <span>Poitiers, France</span>
                   </div>
                 </div>
