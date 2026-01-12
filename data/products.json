@@ -1,0 +1,92 @@
+[
+  {
+    "id": "1",
+    "title": "Sac à main Paquetage",
+    "category": "Accessoires",
+    "description": "Sac à main Paquetage. Dimensions : 25 x 22 cm. Quelques traces d'usure visibles. Produit unique.",
+    "price": 6,
+    "condition": "Occasion",
+    "tags": ["sac", "femme", "accessoire", "vintage"],
+    "image": "/images/Sac à main.jpg",
+    "images": ["/images/Sac à main.jpg", "/images/sac 1.jpg", "/images/sac 2.jpg"],
+    "isNew": false
+  },
+  {
+    "id": "2",
+    "title": "Chemisier Sarah John",
+    "category": "Vêtements",
+    "description": "Chemisier de marque Sarah John, taille 1. Très bon état.",
+    "price": 8,
+    "condition": "Très bon état",
+    "tags": ["chemisier", "vêtement", "femme"],
+    "image": "/images/chemise.jpg",
+    "isNew": true
+  },
+  {
+    "id": "3",
+    "title": "Bol vintage faïence de Gien",
+    "category": "Vaisselle",
+    "description": "Bol vintage en faïence de Gien représentant un couple breton. Hauteur 5 cm.",
+    "price": 3,
+    "condition": "Vintage",
+    "tags": ["vaisselle", "vintage", "déco"],
+    "image": "/images/bol.jpg",
+    "isNew": false
+  },
+  {
+    "id": "4",
+    "title": "Double gamelle de voyage avec gourde",
+    "category": "Animaux",
+    "description": "Double gamelle de voyage avec gourde intégrée. Article neuf.",
+    "price": 3,
+    "condition": "Neuf",
+    "tags": ["chien", "voyage", "animaux"],
+    "image": "/images/Double gamelle.jpg",
+    "images": ["/images/Double gamelle.jpg", "/images/Double gamelle 2.jpg"],
+    "isNew": true
+  },
+  {
+    "id": "6",
+    "title": "Ancienne trousse scolaire en cuir",
+    "category": "Accessoires",
+    "description": "Ancienne trousse scolaire en cuir. Dimensions 17 x 7 x 7 cm.",
+    "price": 6,
+    "condition": "Vintage",
+    "tags": ["cuir", "vintage", "accessoire"],
+    "image": "/images/Ancienne trousse.jpg",
+    "isNew": false
+  },
+  {
+    "id": "8",
+    "title": "Photo sous verre 30x30",
+    "category": "Décoration",
+    "description": "Photo décorative sous verre. Dimensions 30 x 30 cm.",
+    "price": 2.5,
+    "condition": "Bon état",
+    "tags": ["déco", "mur"],
+    "image": "/images/verre.jpg",
+    "isNew": false
+  },
+  {
+    "id": "19",
+    "title": "Pantalon chino taille 40",
+    "category": "Vêtements",
+    "description": "Pantalon chino classique, taille 40. Couleur beige.",
+    "price": 9,
+    "condition": "Bon état",
+    "tags": ["pantalon", "homme", "vêtement"],
+    "image": "/images/pull.jpg",
+    "isNew": false
+  },
+  {
+    "id": "20",
+    "title": "Vase en céramique artisanale",
+    "category": "Décoration",
+    "description": "Vase en céramique artisanale, hauteur 25 cm. Pièce unique.",
+    "price": 11,
+    "condition": "Neuf",
+    "tags": ["vase", "céramique", "artisanal"],
+    "image": "/images/vase.jpg",
+    "isNew": true
+  }
+]
