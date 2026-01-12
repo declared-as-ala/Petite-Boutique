@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useMemo } from "react"
+import { Suspense, useState, useMemo } from "react"
 import { useSearchParams } from "next/navigation"
 import { ProductCard } from "@/components/product-card"
 import { Input } from "@/components/ui/input"
@@ -15,7 +15,7 @@ const products = productsData as Product[]
 const categories: Category[] = ["Tous", "Vêtements", "Accessoires", "Vaisselle", "Décoration", "Animaux"]
 const conditions: Condition[] = ["Tous", "Neuf", "Très bon état", "Bon état", "Occasion", "Vintage"]
 
-export default function CatalogPage() {
+function CatalogContent() {
   const searchParams = useSearchParams()
   const initialCategory = searchParams.get("category") || "Tous"
   
@@ -179,3 +179,22 @@ export default function CatalogPage() {
   )
 }
 
+export default function CatalogPage() {
+  return (
+    <Suspense fallback={
+      <div className="container py-8">
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold mb-2">Catalogue</h1>
+          <p className="text-muted-foreground">
+            Découvrez tous nos articles de seconde main
+          </p>
+        </div>
+        <div className="flex items-center justify-center py-12">
+          <p className="text-muted-foreground">Chargement...</p>
+        </div>
+      </div>
+    }>
+      <CatalogContent />
+    </Suspense>
+  )
+}
